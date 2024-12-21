@@ -4,7 +4,7 @@
     'summary': '  ',
     'description': ' ',
     'category': '',
-    'author': 'Abdallah Eid Hamza',
+    'author': 'Abdallah Eid  Hamza',
     'website': '',
     'sequence': '-100',
     'license': 'LGPL-3',
