@@ -1,0 +1,36 @@
+{
+    'name': 'APP ONE ',
+    'version': '1.0.0',
+    'summary': '  ',
+    'description': ' ',
+    'category': '',
+    'author': 'Abdallah Eid Hamza',
+    'website': '',
+    'sequence': '-100',
+    'license': 'LGPL-3',
+    'depends': ['base','sale','account','product','purchase'],
+    'data': ['security/security.xml',
+            'security/ir.model.access.csv',
+             'data/seq_data.xml',
+             'views/base_menu.xml',
+            'views/property_views.xml',
+            # 'views/inhertied_sale_order.xml',
+            'views/acount_move.xml',
+            'views/owner_views.xml',
+            'views/tags_views.xml',
+            'views/building_view.xml',
+            'views/brand_views.xml',
+            'views/controllers_views.xml',
+            'views/propert_history_views.xml',
+            'wazird/change_state_view.xml',
+
+    ],
+    #'demo': [''],
+    'assets': {
+        'web.assets_backend':['app_one/static/src/css/property.css']
+    },
+    'application': True,
+    'installable': True,
+    'auto_install': False,
+
+}
